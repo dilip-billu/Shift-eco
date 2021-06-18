@@ -1,0 +1,97 @@
+.head{
+    background-color: rgba(221, 61, 61, 0.603);
+    display:flex;
+    justify-content:space-between;
+}
+.head input[type=text]{
+    
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display:flex;
+    justify-content:space-around;
+}
+.det{
+    text-align: right;
+}
+.ico{
+    padding: 10px;
+    display: flex;
+    
+}
+h2{
+    text-align: center;
+}
+a{
+    padding: 0px 45px 0px 45px;
+    text-decoration: none;
+    font-size: 22px;
+    color:rgb(0, 0, 0);
+}
+li{
+    list-style: none;
+}
+
+
+.ab1{
+    
+    display: flex;
+    display: inline-block;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.ab1 img{
+    margin:20px 15px 0px 15px;
+    width: 260px;
+    height: 228px;  
+    padding: 25px;
+    border-radius: 20%;
+}
+.ab1 label{
+    font-size: 25px;
+    margin-left: 100px;
+}
+.ab1 p{
+    margin-left: 50px;
+}
+.ab1 button{
+    margin-left: 50px;
+}
+label:hover{
+    color: rgb(44, 7, 255);
+}
+button{
+    
+    cursor: pointer;
+}
+.t{
+    width:400px;
+    height: 30px;
+}
+
+.j{
+    width: 60px;
+    height: 30px;
+}
+.search{
+    margin-top: 35px;
+    margin-left: 500px;
+}
+.ab1 img:hover{
+    width: 200px;
+    height: 200px;
+    transform:inherit;
+    transition:transform 2s;
+}

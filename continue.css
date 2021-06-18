@@ -1,0 +1,41 @@
+body{
+    background-color:black;
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1{
+   color:whitesmoke;
+  
+    font-size: 40px;
+   text-align: center;
+}
+
+input{
+    appearance:textfield;
+    width:250px;
+    height:30px;
+        
+}
+.btn{
+    width:190px;
+    font-size: 25px;
+    height: 40px;
+    cursor: pointer;
+}
+label{
+    font-size: 25px;
+color:wheat;
+}
+.btn:hover{
+   background-color: green;
+   color: whitesmoke;
+}
+.bd{
+    top: 50px;
+    
+}
+#fh{
+    position: fixed;
+}

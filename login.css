@@ -1,0 +1,84 @@
+html{
+    background-image: url('2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+   
+
+}
+#heade a {
+    text-decoration:none;
+    padding: 15px;
+    padding-right: 25px;
+   padding-left: 25px;
+   font-size: 25px;
+   background-color: wheat;
+   color: black;
+   overflow: hidden;
+   
+}
+#header-link a{
+    
+    text-decoration:none;
+   padding: 15px;
+   float: right;
+   padding-right: 25px;
+   padding-left: 25px;
+   font-size: 25px;
+ 
+   color: black;
+}
+form{
+    
+   
+    background:transparent;
+   
+     margin-top: 150px;
+     font-size: 25px;
+     margin: auto;
+     margin-top: 100px;
+     padding: 100px;
+     display: inline-block;   
+     background:rgba(255, 255, 255, 0.79);
+     border-radius: 10%;
+    box-shadow: 10px 10px 5px grey;
+}
+
+#header-link a:hover{
+   
+    color:darkred;
+}
+body{
+    background-color: lightblue;
+}
+input{
+    background: none;
+   border-bottom:2px solid pink;
+   border-left: none;
+   border-right: none;
+   border-top:none;
+    
+    
+}
+input{
+    height: 30px;
+    width: 250px;
+}
+label{
+    display: inline-block;
+    float: left;
+}
+.btn{
+    background-color: paleturquoise;
+    box-sizing: 50px;
+   
+    font-size: 25px;
+    width: 150px;
+    cursor: pointer;
+
+.header{
+    overflow: hidden;
+}
+.music{
+    border:5px solid;
+}
+

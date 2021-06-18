@@ -1,0 +1,36 @@
+body{
+    background-image: url('1.jpg');
+    background-color: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+input{
+     font-family: 'Red Rose', cursive;
+    appearance: textfield;
+    width:250px;
+    height:30px;
+    border-radius:0.8em;
+}
+.btn{
+    width:160px;
+    font-size: 25px;
+    height: 40px;
+    cursor: pointer;
+    font-family: 'Red Rose', cursive;
+}
+form{
+  font-family: 'Red Rose', cursive;
+    color:black;
+    font-size: 25px;
+    background: rgba(233, 232, 231, 0.76);
+    display: inline-block;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10%;
+   
+    
+}

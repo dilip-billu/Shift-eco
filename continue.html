@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="continue.css">
+         <script src="java.js" type="text/javascript"></script>
+        <title>Payment</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="det">
+           
+            <h1>Payment Details</h1>
+             <center>
+                <form action="succ.html" name="Form" onsubmit="return(sweety());">
+                    <label for="name"> Card Holder Name</label><br><br>
+            <input type="text" name="card" required><br><br>
+            <label for="num">Card Number</label><br><br>
+            <input type="number" name="Num" required><br><br>
+            <label for="expiry">Validity</label><br><br>
+            <input type="date" required ><br><br>
+            <label for="cvv">CVV</label><br><br>
+            <input type="password" maxlength="3" required><br><br>
+            <input type="submit" value="PAYNOW" class="btn">
+         
+                
+            </form>
+            </center>
+        </div>
+    </body>
+</html>
